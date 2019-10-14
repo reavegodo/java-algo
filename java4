@@ -1,0 +1,32 @@
+import java.util.Arrays;
+
+public class Movie {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] Movie = {"LES AVENTURIERS DE L'ARCHE PERDUE", 
+				"INDIANA JONES ET LE TEMPLE MAUDIT",
+				 "INDIANA JONES ET LA DERNIÈRE CROISADE"};
+		
+		
+		
+		String[][] nomActeurs= {{"Harrison Ford", "Karen Allen","Paul Freeman"},
+		        {"Harrison Ford", "Kate Capshaw","Jonathan Ke Quan"},
+		        {"Harrison Ford", "Sean Connery","Denholm Elliott"}};
+		
+		
+		for (int i = 0; i < Movie.length; i++) {
+			
+		System.out.println("dans le film " + Movie[i] + " les acteurs sont : " + 
+	            nomActeurs[i][0] + ", " + nomActeurs[i][1] + ", " + nomActeurs[i][2]); 
+	        }   
+		
+		
+		
+	}
+
+}
+
+
+
